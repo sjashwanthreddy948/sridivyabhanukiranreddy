@@ -27,7 +27,7 @@ const en = {
     haldi: ["Haldi", "Evening", "A golden evening of laughter, blessings and turmeric."],
     mehendi: ["Mehendi", "Evening", "Henna, music and stories woven into every delicate line."],
     pellikuthuru: ["Pellikuthuru", "", "A cherished Telangana bridal ceremony wrapped in flowers and family love."],
-    wedding: ["Wedding", "10:30 AM", "Two souls begin their forever beneath the sacred mandapam."],
+    wedding: ["Wedding", "10:35 AM", "Two souls begin their forever beneath the sacred mandapam."],
     reception: ["Reception", "7:00 PM", "An evening of warm lights, joyful toasts and togetherness."],
   },
 };
@@ -61,7 +61,7 @@ const hi = {
     haldi: ["हल्दी", "संध्या", "हँसी, आशीर्वाद और हल्दी से सजी सुनहरी संध्या।"],
     mehendi: ["मेहंदी", "संध्या", "मेहंदी, संगीत और हर सुंदर रेखा में बुनी स्मृतियाँ।"],
     pellikuthuru: ["पेल्लीकुथुरु", "", "फूलों और पारिवारिक स्नेह से सजी तेलंगाना की प्रिय वधू रस्म।"],
-    wedding: ["विवाह", "सुबह 10:30 बजे", "पवित्र मंडप के नीचे दो आत्माएँ अपना अनंत साथ आरंभ करती हैं।"],
+    wedding: ["विवाह", "सुबह 10:35 बजे", "पवित्र मंडप के नीचे दो आत्माएँ अपना अनंत साथ आरंभ करती हैं।"],
     reception: ["स्वागत समारोह", "शाम 7:00 बजे", "रोशनी, आनंद और अपनत्व से भरी एक सुंदर शाम।"],
   },
 };
@@ -95,7 +95,7 @@ const te = {
     haldi: ["పసుపు", "సాయంత్రం", "నవ్వులు, ఆశీస్సులు, పసుపుతో నిండిన బంగారు సాయంత్రం."],
     mehendi: ["మెహందీ", "సాయంత్రం", "మెహందీ, సంగీతం, ప్రతి అందమైన గీతలో అల్లుకున్న జ్ఞాపకాలు."],
     pellikuthuru: ["పెళ్లికూతురు", "", "పూలు, కుటుంబ ప్రేమతో నిండిన తెలంగాణ సంప్రదాయ వేడుక."],
-    wedding: ["వివాహం", "ఉదయం 10:30", "పవిత్ర మండపం కింద రెండు ఆత్మలు శాశ్వత ప్రయాణాన్ని ప్రారంభిస్తాయి."],
+    wedding: ["వివాహం", "ఉదయం 10:35", "పవిత్ర మండపం కింద రెండు ఆత్మలు శాశ్వత ప్రయాణాన్ని ప్రారంభిస్తాయి."],
     reception: ["రిసెప్షన్", "సాయంత్రం 7:00", "వెచ్చని వెలుగులు, ఆనందం, ఆత్మీయతతో నిండిన సాయంత్రం."],
   },
 };

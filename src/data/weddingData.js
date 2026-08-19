@@ -19,7 +19,7 @@ export const weddingData = {
     "The Chendippa Family cordially invites you to celebrate the wedding of Sri Divya & Bhanu Kiran Reddy.",
   socialShareMessage:
     "Join us in celebrating the wedding of Sri Divya & Bhanu Kiran Reddy.",
-  weddingDate: "2026-08-27T10:30:00+05:30",
+  weddingDate: "2026-08-27T10:35:00+05:30",
   weddingYear: "2026",
   weddingMonth: 8,
   mapUrl: "https://maps.app.goo.gl/pj2mHx6rtJZBTaRo8", // Google Maps venue URL.
@@ -77,7 +77,7 @@ export const weddingData = {
       day: "27",
       ordinal: "th",
       title: "Wedding",
-      time: "10:30 AM",
+      time: "10:35 AM",
       venue: "Vajra Convention Hall",
       tone: "maroon",
       note: "Two souls begin their forever beneath the sacred mandapam.",

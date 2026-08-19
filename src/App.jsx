@@ -91,9 +91,9 @@ export default function App() {
         <LiveStreamSection data={localizedData} copy={copy} />
         <InvitationSection data={localizedData} copy={copy} />
         <RSVPSection data={localizedData} copy={copy} />
+        <Footer data={localizedData} copy={copy} />
         <ContactSection data={localizedData} copy={copy} />
       </main>
-      <Footer data={localizedData} copy={copy} />
       <FloatingActions data={localizedData} copy={copy} />
     </>
   );

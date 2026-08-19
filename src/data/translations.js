@@ -25,7 +25,7 @@ export const translations = {
     save: "Until then, save the 27th in your hearts.",
     recognize: "Recognize your destination",
     weddingVenue: "Wedding Venue",
-    weddingLine: "Wedding · 27th, 10:30 AM",
+    weddingLine: "Wedding · 27th, 10:35 AM",
     receptionLine: "Reception · 28th, 7:00 PM",
     maps: "Open in Google Maps",
     invitation1: "With immense joy in our hearts,",
@@ -64,7 +64,7 @@ export const translations = {
       ],
       wedding: [
         "Shubha Muhurtham",
-        "10:30 AM",
+        "10:35 AM",
         "Two souls begin their forever beneath the sacred mandapam.",
       ],
       reception: [
@@ -100,7 +100,7 @@ export const translations = {
     save: "तब तक 27 तारीख अपने हृदय में सँजोकर रखें।",
     recognize: "अपने गंतव्य को पहचानें",
     weddingVenue: "विवाह स्थल",
-    weddingLine: "विवाह · 27, सुबह 10:30 बजे",
+    weddingLine: "विवाह · 27, सुबह 10:35 बजे",
     receptionLine: "स्वागत समारोह · 28, शाम 7:00 बजे",
     maps: "Google Maps में खोलें",
     invitation1: "हृदय में अपार हर्ष के साथ,",
@@ -138,7 +138,7 @@ export const translations = {
       ],
       wedding: [
         "शुभ मुहूर्त",
-        "सुबह 10:30 बजे",
+        "सुबह 10:35 बजे",
         "पवित्र मंडप के नीचे दो आत्माएँ अपना अनंत साथ आरंभ करती हैं।",
       ],
       reception: [
@@ -174,7 +174,7 @@ export const translations = {
     save: "అంతవరకు 27వ తేదీని మీ హృదయంలో నిలుపుకోండి.",
     recognize: "మీ గమ్యస్థానాన్ని గుర్తించండి",
     weddingVenue: "వివాహ వేదిక",
-    weddingLine: "వివాహం · 27వ తేదీ, ఉదయం 10:30",
+    weddingLine: "వివాహం · 27వ తేదీ, ఉదయం 10:35",
     receptionLine: "రిసెప్షన్ · 28వ తేదీ, సాయంత్రం 7:00",
     maps: "Google Mapsలో తెరవండి",
     invitation1: "మా హృదయాల్లో అపారమైన ఆనందంతో,",
@@ -212,7 +212,7 @@ export const translations = {
       ],
       wedding: [
         "శుభ ముహూర్తం",
-        "ఉదయం 10:30",
+        "ఉదయం 10:35",
         "పవిత్ర మండపం కింద రెండు ఆత్మలు శాశ్వత ప్రయాణాన్ని ప్రారంభిస్తాయి.",
       ],
       reception: [

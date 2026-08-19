@@ -14,7 +14,7 @@ export default function InvitationSection({ data, copy }) {
           {renderLines(copy.invitation2)}
         </p>
         <h2>
-          {data.bride.shortName} <em>&amp;</em> {data.groom.shortName}
+          {data.bride.shortName} <em>&amp;<br></br></em> {data.groom.shortName}
         </h2>
         <p>{renderLines(copy.invitation3)}</p>
       </div>

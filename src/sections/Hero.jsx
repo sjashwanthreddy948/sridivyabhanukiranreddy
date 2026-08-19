@@ -47,7 +47,7 @@ export default function Hero({ data, copy }) {
         {wedding && (
           <motion.div variants={revealChild} className="date-lockup">
             <strong>
-              {wedding.day}
+              August {wedding.day}
               {wedding.ordinal || ""}
             </strong>
             <i />
