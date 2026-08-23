@@ -24,9 +24,9 @@ export const weddingData = {
   weddingMonth: 8,
   mapUrl: "https://maps.app.goo.gl/pj2mHx6rtJZBTaRo8", // Google Maps venue URL.
   musicUrl: "/audio/monume-love-576948.mp3",
-  weddingLiveUrl: "", // Paste the wedding YouTube Live URL here.
-  receptionLiveUrl: "", // Paste the reception YouTube Live URL here.
-  rsvp: { name: "", phone: "" }, // Add RSVP name and phone (country code recommended).
+  weddingLiveUrl: "https://eventlivepro.com/live/divya-bhanu-kiran-reddy-wedding", // Paste the wedding YouTube Live URL here.
+  receptionLiveUrl: "https://eventlivepro.com/live/bhanu-kiran-reddy-sri-divya-reception", // Paste the reception YouTube Live URL here.
+  rsvp: { name: "Chendippa Pratap Reddy", phone: "9849094588" }, // Add RSVP name and phone (country code recommended).
   businessContact: {
     brand: "Infinity Customizations",
     founder: "Jashwanth Reddy",
@@ -34,7 +34,7 @@ export const weddingData = {
     phone: "8985993948",
     whatsapp: "918985993948",
     email: "infinitycustomizations@gmail.com",
-    website: "", // Add the complete website URL here when available.
+    website: "https://www.infinitycustomizations.com/", // Add the complete website URL here when available.
   },
   familyMembers: [], // Add more names, e.g. ['Name One', 'Name Two'].
   venue: {

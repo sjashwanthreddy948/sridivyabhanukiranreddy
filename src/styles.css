@@ -2618,6 +2618,67 @@ nav .nav-links a:focus-visible {
   left: 18px;
   bottom: 20px;
 }
+.watch-live-button {
+  position: fixed;
+  z-index: 700;
+  left: 18px;
+  bottom: 76px;
+  min-width: 132px;
+  height: 42px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #d4ad5d;
+  border-radius: 999px;
+  background: var(--maroon);
+  color: #fff9f0;
+  box-shadow: 0 9px 26px #3b0b1730;
+  font: 600 10px "Lora";
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+.watch-live-control {
+  position: fixed;
+  z-index: 700;
+  left: 18px;
+  bottom: 76px;
+}
+.watch-live-control .watch-live-button {
+  position: static;
+  cursor: pointer;
+}
+.watch-live-menu {
+  position: absolute;
+  left: 0;
+  bottom: 48px;
+  width: 168px;
+  padding: 6px;
+  border: 1px solid #d4ad5d;
+  background: #fffaf2;
+  box-shadow: 0 9px 26px #3b0b1730;
+}
+.watch-live-menu a {
+  display: block;
+  padding: 10px 12px;
+  color: var(--maroon);
+  font: 600 13px "Lora";
+  text-decoration: none;
+}
+.watch-live-menu a:hover,
+.watch-live-menu a:focus-visible {
+  background: #f3e6d3;
+}
+.watch-live-button:hover,
+.watch-live-button:focus-visible {
+  background: #7b1d2b;
+}
+.watch-live-button svg {
+  width: 17px;
+  height: 17px;
+  color: #f1d590;
+}
 .language-switcher > button {
   min-width: 132px;
   height: 46px;
@@ -2686,6 +2747,16 @@ html[lang="te"] body {
   .language-switcher {
     left: 10px;
     bottom: 12px;
+  }
+  .watch-live-button {
+    min-width: 104px;
+    height: 38px;
+    padding: 0 11px;
+    font-size: 8px;
+  }
+  .watch-live-control {
+    left: 10px;
+    bottom: 65px;
   }
   .language-switcher > button {
     min-width: 104px;
@@ -3601,6 +3672,41 @@ nav .nav-links a {
   aspect-ratio: 16 / 9;
 }
 
+.live-card.has-external-link {
+  min-height: 82px;
+  display: grid;
+  place-items: center;
+}
+
+.live-external-link {
+  width: 100%;
+  min-height: 82px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--maroon);
+  text-decoration: none;
+  background: radial-gradient(circle, #fffdf8 0%, #f8ecd9 100%);
+}
+
+.live-external-link:hover,
+.live-external-link:focus-visible {
+  background: #f5e3c6;
+}
+
+.live-external-link svg,
+.live-pending > svg {
+  width: 24px;
+  height: 24px;
+  color: var(--maroon);
+}
+
+.live-external-link strong {
+  font: 600 18px "Cormorant Garamond";
+}
+
 .live-card iframe {
   width: 100%;
   height: 100%;
@@ -3608,8 +3714,8 @@ nav .nav-links a {
 }
 
 .live-pending {
-  min-height: 96px;
-  padding: 16px 22px;
+  min-height: 82px;
+  padding: 12px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3618,27 +3724,10 @@ nav .nav-links a {
   background: radial-gradient(circle, #fffdf8 0%, #f8ecd9 100%);
 }
 
-.live-pending > span {
-  width: 48px;
-  height: 36px;
-  flex: 0 0 48px;
-  display: grid;
-  place-items: center;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  color: #ff0000;
-}
-
-.live-pending svg {
-  width: 48px;
-  height: 36px;
-}
-
 .live-pending h4 {
   margin: 0 0 6px;
   color: var(--maroon);
-  font: 600 clamp(20px, 2.7vw, 27px) "Cormorant Garamond";
+  font: 600 clamp(18px, 2.7vw, 24px) "Cormorant Garamond";
 }
 
 .live-pending p {
@@ -3676,22 +3765,10 @@ nav .nav-links a {
   }
 
   .live-pending {
-    min-height: 118px;
-    padding: 12px 8px;
-    flex-direction: column;
-    gap: 7px;
+    min-height: 82px;
+    padding: 10px 8px;
+    gap: 8px;
     text-align: center;
-  }
-
-  .live-pending > span {
-    width: 42px;
-    height: 30px;
-    flex-basis: 42px;
-  }
-
-  .live-pending svg {
-    width: 42px;
-    height: 30px;
   }
 
   .live-pending p {

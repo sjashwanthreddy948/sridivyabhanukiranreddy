@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, useReducedMotion } from "framer-motion";
+import { Radio } from "lucide-react";
 import Nav from "./components/Nav";
 import Loader from "./components/Loader";
 import LanguageSwitcher from "./components/LanguageSwitcher";
@@ -23,6 +24,7 @@ import { weddingData } from "./data/weddingData";
 export default function App() {
   const [loading, setLoading] = useState(true);
   const [opened, setOpened] = useState(false);
+  const [liveMenuOpen, setLiveMenuOpen] = useState(false);
   const [lang, setLang] = useState("en");
   const reduceMotion = useReducedMotion();
   const copy = translations[lang];
@@ -80,6 +82,32 @@ export default function App() {
         setLang={setLang}
         translations={translations}
       />
+      {!loading && opened && localizedData.weddingLiveUrl && (
+        <div className="watch-live-control">
+          <button
+            type="button"
+            className="watch-live-button"
+            onClick={() => setLiveMenuOpen((value) => !value)}
+            aria-expanded={liveMenuOpen}
+            aria-haspopup="menu"
+          >
+            <Radio aria-hidden="true" />
+            <span>{copy.liveWatch}</span>
+          </button>
+          {liveMenuOpen && (
+            <div className="watch-live-menu" role="menu">
+              <a href={localizedData.weddingLiveUrl} target="_blank" rel="noreferrer" role="menuitem">
+                {copy.weddingLive}
+              </a>
+              {localizedData.receptionLiveUrl && (
+                <a href={localizedData.receptionLiveUrl} target="_blank" rel="noreferrer" role="menuitem">
+                  {copy.receptionLive}
+                </a>
+              )}
+            </div>
+          )}
+        </div>
+      )}
       <main id="main-content">
         <Hero data={localizedData} copy={copy} />
         <Blessing copy={copy} />
